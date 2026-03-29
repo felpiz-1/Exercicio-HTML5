@@ -1,3 +1,9 @@
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo suave */
+}
+ 
  #barraNavegação {
     background-color: #003366; /* Azul escuro combinando com a marca */
     padding: 15px;
@@ -11,6 +17,7 @@
     margin: 0 20px;
     font-weight: bold;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 
 /* Estilo dos Títulos */
@@ -25,6 +32,12 @@ p {
     text-align: center;
     color: #555;
     font-family: 'Segoe UI', sans-serif;
+}
+
+.subtitulo {
+    font-style: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
  
  #banner {
@@ -52,4 +65,32 @@ p {
         border-radius: 10px;
         margin-bottom: 20px;
     }
+
+#sobre{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#missaoValores, #oqueFazemos {
+        display: grid;
+        grid-template-columns: 300px 1fr; /* Coluna para ícones e coluna para texto */
+        align-items: center;
+        margin-bottom: 50px;
+        text-align: left;
+        justify-content: space-around;
+        gap: 40px;
+        padding: 40px 20px;
+        background-color: #e8f0fe;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 30px;
+
+
+    }
+
+#missaoValores p, #oqueFazemos ul {
+        margin: 0;
+        color: #555;
+        line-height: 1.6;
+    }
+
 
