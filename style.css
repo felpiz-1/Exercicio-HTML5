@@ -30,7 +30,7 @@ h1 {
 
 p {
     text-align: center;
-    color: #555;
+    color: #000000;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -87,16 +87,12 @@ p {
 
     }
 
-#missaoValores p, #oqueFazemos ul {
-    margin: 0;
-    color: #555;
-    line-height: 1.6;
-    }
-
+#oqueFazemos p, #missaoValores li {
+    color: rgb(73, 72, 72);
+}
 #redesSociais {
     /* display: flex; */
     justify-content: center;
-    gap: 30px;
     padding: 20px;
     background-color: #003366;
     border-radius: 10px 10px 0 0; /* Arredonda apenas as pontas de cima */
@@ -120,8 +116,34 @@ p {
     height: 30px;
 }
 
-#iconesRedes {
-    gap: 20px;
+.iconesRedes {
     margin: 0 auto;
     text-align: center;
+}
+
+#anuncios {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bannerAnuncio > div {
+    display: grid;
+    grid-template-columns: 2fr; /* Coluna única para o conteúdo */
+    flex: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.imgAnuncios {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
